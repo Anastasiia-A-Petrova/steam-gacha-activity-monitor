@@ -16,7 +16,7 @@ The project collects concurrent player data from the Steam Web API, stores histo
 
 ## Dashboard Preview
 
-![Steam Gacha Activity Monitor Dashboard](docs/images/dashboard.png)
+![Steam Gacha Activity Monitor Dashboard](images/dashboard.png)
 
 ---
 
