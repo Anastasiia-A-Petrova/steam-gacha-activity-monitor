@@ -647,12 +647,6 @@ Successful response:
 
 ---
 
-## API Screenshot
-
-![FastAPI Swagger UI](docs/images/api-swagger.png)
-
----
-
 # Data Quality
 
 Data quality checks are integrated directly into the automated workflow.
@@ -733,7 +727,7 @@ When data quality checks fail, the workflow sends a separate alert.
 
 ## Telegram Screenshot
 
-![Telegram monitoring alert](docs/images/telegram-alert.png)
+![Telegram monitoring alert](images/telegram-alert.png)
 
 ---
 
@@ -851,7 +845,7 @@ This makes the dashboard useful not only for analysis but also for monitoring th
 
 ## Dashboard Screenshot
 
-![Google Sheets Dashboard](docs/images/dashboard.png)
+![Google Sheets Dashboard](images/dashboard.png)
 
 ---
 
@@ -875,7 +869,7 @@ Historical snapshots are stored in PostgreSQL, while Google Sheets is used prima
 
 ## Raw Data Screenshot
 
-![Raw Steam data](docs/images/raw-data.png)
+![Raw Steam data](images/raw-data.png)
 
 ---
 
@@ -883,7 +877,7 @@ Historical snapshots are stored in PostgreSQL, while Google Sheets is used prima
 
 The complete n8n workflow demonstrates the automation layer:
 
-![n8n automation workflow](docs/images/pipeline.png)
+![n8n automation workflow](images/pipeline.png)
 
 ---
 
@@ -891,7 +885,7 @@ The complete n8n workflow demonstrates the automation layer:
 
 Example PostgreSQL analytical output:
 
-![PostgreSQL analytics](docs/images/postgresql.png)
+![PostgreSQL analytics](images/postgresql.png)
 
 ---
 
@@ -1501,11 +1495,11 @@ The result is a small but complete **automated analytics system** rather than a 
 
 ## Screenshots
 
-| Component               | Preview                          |
-| ----------------------- | -------------------------------- |
-| Google Sheets Dashboard | `docs/images/dashboard.png`      |
-| n8n Automation Pipeline | `docs/images/pipeline.png`       |
-| PostgreSQL Analytics    | `docs/images/postgresql.png`     |
-| Telegram Alert          | `docs/images/telegram-alert.png` |
-| Raw Data                | `docs/images/raw-data.png`       |
+| Component               | Preview                     |
+| ----------------------- | --------------------------- |
+| Google Sheets Dashboard | `images/dashboard.png`      |
+| n8n Automation Pipeline | `images/pipeline.png`       |
+| PostgreSQL Analytics    | `images/postgresql.png`     |
+| Telegram Alert          | `images/telegram-alert.png` |
+| Raw Data                | `images/raw-data.png`       |
 
